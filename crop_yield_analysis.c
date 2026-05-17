@@ -56,7 +56,7 @@ int main() {
             break;
         case 3:
             sprintf(cropName, "Maize");
-            threshold = 5.0;
+            threshold = 4.8;    //changed maize threshold from 5 to 4,8
             break;
         case 4:
             sprintf(cropName, "Cotton");
