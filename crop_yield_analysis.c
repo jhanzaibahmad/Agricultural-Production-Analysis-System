@@ -100,7 +100,8 @@ int main() {
         printf("  Status   : INVALID - Yield cannot be zero or negative.\n");
         printf("  Action   : Please re-enter valid yield data.\n");
     }
-    else if (yieldValue >= threshold * 1.2) {
+    else if (yieldValue >= threshold * 1.15)  /* changed from 1.2 to 1.15 */ 
+    {
         printf("  Status   : EXCELLENT PRODUCTIVITY\n");
         printf("  Trend    : Well above seasonal threshold.\n");
         printf("  Action   : Maintain current farming practices.\n");
